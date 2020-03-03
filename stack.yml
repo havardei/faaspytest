@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: https://faas.testapps.stack.it.ntnu.no
+functions:
+  fn1:
+    lang: go
+    handler: ./fn1
+    image: havardei/fn1:latest
+
